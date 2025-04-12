@@ -44,6 +44,7 @@ def get_logger(name: str):
 
 logger = get_logger(__name__)
 
+print("Starting MCP server...")
 # Create server instance using FastMCP
 mcp = FastMCP("pdf-reader")
 
